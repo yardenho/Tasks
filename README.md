@@ -1,1 +1,1 @@
-
+Functional assignment
