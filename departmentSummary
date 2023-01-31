@@ -1,0 +1,2 @@
+SELECT d."NAME" as "name", count(e."DEPT_ID") as "count" FROM "DEPARTMENT" d, "EMPLOYEE" e WHERE d."ID" = e."DEPT_ID"
+GROUP BY  d."NAME" ORDER BY e."DEPT_ID" DESC, d."NAME" ASC
