@@ -1,5 +1,4 @@
 def priceCheck(products, productPrices, productSold, soldPrice):
-    # maybe to check the option that a product isnt in the product list
     error = 0
     for index, prod in enumerate(productSold):
         if productPrices[products.index(prod)] != soldPrice[index]:
